@@ -99,7 +99,8 @@ void DrawObjectName(CGContextRef context, CGSize canvasSize, NSString *objectNam
         CGColorSpaceRelease(rgbColorSpace);
          
         // Set the color of the first 12 chars to red.
-        CFAttributedStringSetAttribute(attrString, CFRangeMake(0, 12), kCTForegroundColorAttributeName, black);
+	//niu541412 comment out
+//        CFAttributedStringSetAttribute(attrString, CFRangeMake(0, 12), kCTForegroundColorAttributeName, black);
          
                 
         // Create the framesetter with the attributed string.
